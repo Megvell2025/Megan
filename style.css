@@ -1,0 +1,74 @@
+body {
+    color:brown;
+}
+
+p.especial {
+
+    color:crimson;
+}
+p.texto {
+
+    color:blue;
+}
+
+div p {
+
+    color:greenyellow;
+}
+
+/*esto es un comentario*/
+
+.color {
+    /*border: 5px black dotted;*/
+
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;  /**/  /*borde redondeado*/ 
+    border-width: 10px;
+
+
+}
+
+#fondo {
+
+background-color: darkgoldenrod;
+background-image: url(img.png); 
+height: 400px;
+
+}
+
+ul {
+    background-color: aquamarine;
+    list-style-type: none;
+    padding-left: 0;   /* esto es para quitar espacio a la izquierda*/
+    list-style-position:outside ;
+}
+
+table {
+    width: 100%;
+   border-collapse: collapse; *//*une las lineas de borde*/
+
+
+    th,td {
+
+        border: solid 1px blueviolet;
+        padding: 5px;
+    }
+
+    th{
+
+        background-color: darkgrey;
+        color: darkblue;
+        text-align: left; /*texto de tabla alineado a la izquierda*/
+    }
+
+    tr:hover {
+        background-color: aqua;/*resalta de algun color la fila*/
+
+    }
+    
+    tr:nth-child(even){
+        background-color: darkolivegreen;/*even filas impares*/
+
+    }
+}
